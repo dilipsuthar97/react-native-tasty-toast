@@ -1,0 +1,60 @@
+{
+	"name": "react-native-tasty-toast",
+	"title": "React Native Tasty Toast",
+	"version": "1.0.0",
+	"description": "TODO",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"files": [
+		"README.md",
+		"android",
+		"lib",
+		"ios",
+		"react-native-tasty-toast.podspec"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "tslint 'src/**/*.{ts,tsx}'",
+		"clean": "rm -rf lib",
+		"build": "yarn run clean && tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/github_account/react-native-tasty-toast.git",
+		"baseUrl": "https://github.com/github_account/react-native-tasty-toast"
+	},
+	"keywords": [
+		"react-native",
+		"toast",
+		"android",
+		"design",
+		"tasty toast"
+	],
+	"author": {
+		"name": "Dilip Suthar",
+		"email": "suthardilip696@gmail.com"
+	},
+	"license": "MIT",
+	"licenseFilename": "LICENSE",
+	"readmeFilename": "README.md",
+	"peerDependencies": {
+		"react": "^16.8.1",
+		"react-native": ">=0.60.0-rc.0 <1.0.x"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.8.4",
+		"@babel/core": "^7.9.6",
+		"@types/react": "^16.9.35",
+		"@types/react-native": "^0.62.11",
+		"metro-react-native-babel-preset": "^0.59.0",
+		"prettier": "^2.0.5",
+		"react": "^16.9.0",
+		"react-native": "^0.61.5",
+		"react-native-typescript-transformer": "^1.2.13",
+		"tslint": "^6.1.2",
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-config-standard": "^9.0.0",
+		"tslint-react": "^5.0.0",
+		"typescript": "^3.9.3"
+	}
+}
